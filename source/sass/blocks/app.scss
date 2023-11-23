@@ -1,0 +1,14 @@
+.app {
+  background-color: $color-app;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__test {
+    background-color: $color-app-test;
+    width: 30%;
+    height: 30%;
+  }
+}
